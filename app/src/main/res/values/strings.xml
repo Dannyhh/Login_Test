@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login_Demo</string>
+    <string name="login">Login</string>
+    <string name="passEnter">Enter Your Password</string>
+    <string name="userEnter">Enter Your Username</string>
+    <string name="adminUser">admin</string>
+    <string name="adminPass">password</string>
+    <string name="passedTestMessage">That is Correct</string>
+</resources>
