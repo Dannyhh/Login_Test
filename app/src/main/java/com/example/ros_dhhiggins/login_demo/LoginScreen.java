@@ -20,8 +20,12 @@ public class LoginScreen extends AppCompatActivity {
         user = (EditText) findViewById(R.id.usernameText);
         pass = (EditText) findViewById(R.id.passwordText);
 
-        if (user.toString().equalsIgnoreCase(getString(R.string.adminUser))
-            && pass.toString().equalsIgnoreCase(getString(R.string.adminPass))){
+        String username,password;
+        username = user.getText().toString();
+        password = pass.getText().toString();
+
+        if (username.equalsIgnoreCase(getString(R.string.adminUser))
+            && password.equalsIgnoreCase(getString(R.string.adminPass))){
                 Intent correct = new Intent(this, LoginCorrect.class);
                 startActivity(correct);
 
