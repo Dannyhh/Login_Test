@@ -25,5 +25,6 @@
         android:layout_below="@id/incorrectMessage"
         android:hint="@string/back"
         android:textColorHint="@color/colorPrimaryDark"
+        android:onClick="back"
         />
 </RelativeLayout>
