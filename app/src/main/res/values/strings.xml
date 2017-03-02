@@ -6,4 +6,6 @@
     <string name="adminUser">admin</string>
     <string name="adminPass">password</string>
     <string name="passedTestMessage">That is Correct</string>
+    <string name="failedTestMessage">That is Incorrect Please Try Again</string>
+    <string name="back">Back</string>
 </resources>
